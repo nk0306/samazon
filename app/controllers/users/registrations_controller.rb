@@ -14,7 +14,7 @@ class Users::RegistrationsController < Devise::RegistrationsController
   # POST /resource
   def create
      super
-   end
+  end
 
   # GET /resource/edit
   # def edit
@@ -31,7 +31,7 @@ class Users::RegistrationsController < Devise::RegistrationsController
   #   super
   # end
   
-    def verify
+  def verify
   end
 
   # GET /resource/cancel
