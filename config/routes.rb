@@ -16,7 +16,7 @@ Rails.application.routes.draw do
   end
  resources :products do
    member do
-     post :favorite
+     get :favorite
      end 
    resources :reviews, only: [:create]
  end
