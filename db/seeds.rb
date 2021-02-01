@@ -44,7 +44,7 @@ product_ids.each do
   Product.create(
     name:product_name,
     description:product_name,
-    peice: product_ids[array_number],
+    price: product_ids[array_number],
     category_id: category_ids[array_number]
     )
     array_number += 1
