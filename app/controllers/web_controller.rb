@@ -10,7 +10,7 @@ class WebController < ApplicationController
      @products = Product.display_list(params[:page])
     end
 
-   @major_category_names = Category.major_categories
+   @major_category_names = Category.major_list
    @categories = Category.all
   end
 
